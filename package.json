@@ -1,0 +1,11 @@
+{
+  "name": "team_dearmas",
+  "version": "1.0.0",
+  "description": "Powerlifting website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luke de Armas",
+  "license": "ISC"
+}
