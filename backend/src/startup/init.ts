@@ -1,10 +1,11 @@
 import { Express } from 'express';
 import 'dotenv/config';
 import createServer from './server';
+import connectDb from './db/db'
 
 
 export default async function init() {
-  // Connect to DB here
+  await connectDb();
 
   console.log('Starting server');
   const app: Express = createServer();
