@@ -2,7 +2,7 @@ import { Sequelize } from "sequelize";
 
 
 export default async function connectDb() {
-  const sequelize = new Sequelize(process.env.DB_STRING);
+  const sequelize = new Sequelize(process.env.URI);
 
   try {
     await sequelize.authenticate();
